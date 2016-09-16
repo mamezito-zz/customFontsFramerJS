@@ -12,7 +12,9 @@ layerA = new Layer
 		"font-family":"'Pacifico', cursive"
 layerA.center()
 ```
+
 ![](https://github.com/mamezito/customFontsFramerJS/blob/master/customfont.png)
+
 Google webfonts will provide you url to css of their font which you need to include in Utils.insertCSS function call.
 Next step - is to apply font-family styling to your layer according to instructions on google webfonts site
 http://share.framerjs.com/47lhpcnc28qc/
@@ -20,7 +22,9 @@ http://share.framerjs.com/47lhpcnc28qc/
 
 
 Same aproach can be used if you font to use icon font
+
 ![](https://github.com/mamezito/customFontsFramerJS/blob/master/iconfont.png)
+
 ```
 Utils.insertCSS('@import url(https://fonts.googleapis.com/icon?family=Material+Icons);  .material-icons.tab{font-size:60px; line-height:144px;} ')
 
